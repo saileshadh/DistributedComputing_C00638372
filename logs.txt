@@ -1,0 +1,51 @@
+===== 1. pwd =====
+/home/ec2-user/DistributedComputing
+===== 2. ls =====
+logs.txt
+===== 3. whoami =====
+ec2-user
+===== 4. hostname =====
+ip-172-31-40-34.us-east-2.compute.internal
+===== 5. uname =====
+Linux
+===== 6. date =====
+Tue Sep 15 17:47:13 UTC 2026
+===== 7. df -h =====
+Filesystem        Size  Used Avail Use% Mounted on
+devtmpfs          4.0M     0  4.0M   0% /dev
+tmpfs             457M     0  457M   0% /dev/shm
+tmpfs             183M  440K  183M   1% /run
+efivarfs          128K  2.7K  121K   3% /sys/firmware/efi/efivars
+/dev/nvme0n1p1    8.0G  1.8G  6.2G  23% /
+tmpfs             457M     0  457M   0% /tmp
+/dev/nvme0n1p128   10M  1.3M  8.7M  13% /boot/efi
+tmpfs              92M     0   92M   0% /run/user/1000
+===== 8. du -sh . =====
+4.0K	.
+===== 9. free -h =====
+               total        used        free      shared  buff/cache   available
+Mem:           913Mi       175Mi       312Mi       0.0Ki       425Mi       599Mi
+Swap:             0B          0B          0B
+===== 10. ps =====
+    PID TTY          TIME CMD
+   4233 pts/0    00:00:00 bash
+  29001 pts/0    00:00:00 ps
+===== 11. ls -la =====
+total 4
+drwxr-xr-x. 2 ec2-user ec2-user   22 Sep 15 17:43 .
+drwx------. 4 ec2-user ec2-user  137 Sep 15 17:42 ..
+-rw-r--r--. 1 ec2-user ec2-user 1118 Sep 15 17:47 logs.txt
+===== 12. mkdir =====
+===== 13. touch =====
+===== 14. echo =====
+Distributed Computing Class
+===== 15. cp =====
+===== 16. chmod =====
+===== 17. head =====
+Distributed Computing Class
+===== 18. tail =====
+Distributed Computing Class
+===== 19. cat =====
+Distributed Computing Class
+===== 20. git --version =====
+git version 2.50.1
